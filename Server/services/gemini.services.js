@@ -1,4 +1,4 @@
-const Gemini_URL = "https://api.gemini.com/v1/pubticker/btcusd";
+const Gemini_URL = process.env.Gemini_URL;
  const generateGeminiResponse = async (prompt) => {
     try {
         const response = await fetch(`${Gemini_URL}?{process.env.GEMINI_API_KEY}`,
