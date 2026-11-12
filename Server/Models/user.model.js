@@ -22,11 +22,11 @@ const userSchema = new mongoose.Schema({
     type:Boolean,
     default:true
  },
-//  notes:{
-//     type: mongoose.Schema.Types.ObjectId,
-//     ref:"Notes",
-//     default :[]
-//  }
+ notes:{
+    type: mongoose.Schema.Types.ObjectId,
+    ref:"Notes",
+    default :[]
+ }
 
 
 },{timestamps:true});

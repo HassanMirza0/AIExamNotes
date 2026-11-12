@@ -5,7 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-   headers: {
-      "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
-    },
+  
 })
